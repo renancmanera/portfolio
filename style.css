@@ -95,7 +95,9 @@ footer {
 }
 
 .legenda {
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 3.3vh;
-    margin-left: 2vh;
+    padding: 0;
+    margin-left: 0.5vh;
 }
