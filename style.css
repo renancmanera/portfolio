@@ -9,11 +9,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2vh;
+    padding: 1vh;
 }
 
 .nome {
     font-family: 'Noto Serif', serif;
+    font-size: 5vh;
 }
 
 img#eu {
