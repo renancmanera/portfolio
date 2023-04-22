@@ -47,8 +47,6 @@ ul {
     border: solid 0.3vh black;
 }
 
-
-
 .especial {
     color: white;
     font-weight: bolder;
@@ -61,7 +59,7 @@ ul {
     padding: 0vh 3vh;
 }
 
-a {
+.link {
     text-decoration: none;
     color: white;
     font-size: 3vh;
@@ -83,46 +81,46 @@ a {
     border-radius: 50%;
 }
 
-
-
 footer {
-    float: inline-end;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.568);
+    height: 100%;
     width: 100%;
-    display: flex;
-    height: 1vh;
     background-color: rgba(24, 14, 112, 0.966);
-    padding-top: 10vh;
 }
 
 .instagram {
     height: 10vh;
-    margin: 5vh 0vh 0vh 20vh;
+    margin: 7vh 0vh 0vh 32vh;
 }
 
 .github {
     height: 10vh;
-    margin: 5vh 0 0 20vh
+    margin: 7vh 0vh 0vh 32vh;
 }
 
-.legenda1,
-.legenda2 {
+.legenda1 {
     color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 4vh;
-    padding: 0;
-    margin-left: 1vh;
+    margin: 0vh 0vh 0vh 23vh;
+    text-decoration: none;
 }
+
+.legenda2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    margin: 0vh 0vh 0vh 22vh;
+    text-decoration: none;
+}
+
 
 .legenda1:hover {
     color: rgb(255, 0, 128);
-    padding: 3vh 0vh 3vh 0;
 }
 
 .legenda2:hover {
-    color: rgb(136, 112, 112);
-    padding: 3vh 0vh 1vh 0;
+    color: rgb(57, 43, 179);
 }
 
 .mainleft,
@@ -146,10 +144,12 @@ main {
 
 .subtitulo {
     margin: 0 25vh 4vh 0;
-    color: rgb(0, 0, 0);
+    color: rgb(57, 43, 179);
     font-size: 5vh;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 .dedo {
@@ -157,9 +157,11 @@ main {
 }
 
 .subcont {
-    margin: 0vh 25vh 2vh 10vh;
+    margin: 0vh 25vh 0vh 0vh;
     color: rgb(0, 0, 0);
     font-size: 5vh;
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    color: rgb(57, 43, 179);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
