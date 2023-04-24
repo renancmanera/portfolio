@@ -18,12 +18,16 @@ header {
     color: rgb(255, 255, 255);
     position: relative;
     transition: all 2.5s ease-in-out;
+    background-color: rgb(45, 45, 189);
+    padding: 2vh 3vh;
+    border-radius: 45%;
 }
 
 img#eu {
     width: 15vh;
     margin: 0vh 5vh;
     border-radius: 50%;
+    border: 0.5vh solid rgba(0, 195, 255, 0.719);
 }
 
 img#eu2 {
