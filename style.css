@@ -9,17 +9,17 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1vh;
+    padding: 2.7vh;
 }
 
 .nome {
     font-family: 'Noto Serif', serif;
-    font-size: 5vh;
+    font-size: 6vh;
     color: rgb(255, 255, 255);
     position: relative;
     transition: all 2.5s ease-in-out;
     background-color: rgb(45, 45, 189);
-    padding: 2vh 3vh;
+    padding: 2.5vh 3vh;
     border-radius: 45%;
 }
 
@@ -90,6 +90,15 @@ footer {
     height: 100%;
     width: 100%;
     background-color: rgba(24, 14, 112, 0.966);
+    margin: auto;
+}
+
+.direitos {
+    font-size: 2vh;
+    color: white;
+    text-align: center;
+    padding: 0.5vh 0vh;
+
 }
 
 .instagram {
