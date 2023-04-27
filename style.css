@@ -27,12 +27,13 @@ img#eu {
     width: 15vh;
     margin: 0vh 5vh;
     border-radius: 50%;
-    border: 0.5vh solid rgba(0, 195, 255, 0.719);
+    border: 0.5vh solid rgb(45, 45, 189);
 }
 
 img#eu2 {
     width: 50vh;
     margin: 3vh 25vh 3vh 25vh;
+    border: 0.7vh solid rgba(24, 14, 112, 0.966)
 }
 
 .icone {
@@ -48,7 +49,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 2vh 80vh;
-    border: solid 0.3vh black;
+    border: 0.5vh solid rgba(24, 14, 112, 0.966)
 }
 
 .especial {
@@ -94,10 +95,11 @@ footer {
 }
 
 .direitos {
-    font-size: 2vh;
+    font-size: 1.5vh;
     color: white;
     text-align: center;
-    padding: 0.5vh 0vh;
+    padding: 1vh 0vh;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -162,7 +164,6 @@ main {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
 }
 
 .dedo {
