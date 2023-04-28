@@ -179,3 +179,21 @@ main {
     color: rgb(57, 43, 179);
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+#uvv {
+    width: 61.5vh;
+    margin: 3vh 25vh 3vh 25vh;
+    border: 0.7vh solid rgba(24, 14, 112, 0.966)
+}
+
+#rede {
+    width: 61.5vh;
+    margin: 3vh 20vh 3vh 25vh;
+    border: 0.7vh solid rgba(24, 14, 112, 0.966)
+}
+
+#linguagem {
+    width: 61.5vh;
+    margin: 3vh 20vh 3vh 25vh;
+    border: 0.7vh solid rgba(24, 14, 112, 0.966)
+}
